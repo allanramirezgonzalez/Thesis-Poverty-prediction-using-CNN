@@ -1,4 +1,4 @@
-###Este codigo es para generar los patches de el raster de luz nocturna.
+###Este codigo es para generar los patches de el raster de luz nocturna. Para esto, el raster ya debio de haber sido reescalado al mismo tamaño que el de la Geoqmediana
 
 #%%
 import numpy as np
@@ -70,4 +70,5 @@ print("Recortes de imágenes guardados en 'all_cropped_images.npy'.")
 
 
 # %%
+
 
