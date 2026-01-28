@@ -1,3 +1,4 @@
+### Del excel que arroja generar promedios municipales ponderados, se hacen promedios ponderados a nivel estatal
 import pandas as pd
 
 
@@ -68,4 +69,5 @@ resultado_final = pd.concat([resultado, fila_total], ignore_index=True)
 resultado_final.to_excel("promedios_ponderados_por_entidad_y_nacional.xlsx", index=False) #Esta linea cambias el nombre del archivo. 
 
 # Mostrar resultado
+
 print(resultado_final)
