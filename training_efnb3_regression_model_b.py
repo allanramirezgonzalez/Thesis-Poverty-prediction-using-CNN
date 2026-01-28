@@ -1,3 +1,6 @@
+###Código base, de Pablo Vera Alfaro, disponible en: https://git.inegi.org.mx/laboratorio-de-ciencia-de-datos/vulnerability/-/blob/main/CNN_training/training_efnb3_regression_model_b.py?ref_type=heads
+
+
 import os
 os.environ["CUDA_VISIBLE_DEVICES"]="3"
 
