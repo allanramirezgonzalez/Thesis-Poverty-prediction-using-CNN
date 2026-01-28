@@ -1,3 +1,5 @@
+###Este codigo es para generar los patches de el raster de luz nocturna.
+
 #%%
 import numpy as np
 import pandas as pd
@@ -68,3 +70,4 @@ print("Recortes de imágenes guardados en 'all_cropped_images.npy'.")
 
 
 # %%
+
