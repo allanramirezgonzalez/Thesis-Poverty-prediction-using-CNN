@@ -1,5 +1,6 @@
-import pandas as pd #Sí funciona v:
+#Generar promedios municipales de las predicciones AGEB que arroja la red
 
+import pandas as pd 
 ###Codigos para 2020
 #Asegurate de que la base de predicciones completas tenga la columna de población por AGEB, la puedes copiar y pegar de otra base, da lo mismo.
 
@@ -28,3 +29,4 @@ resultado = agrupado[["id_mun", "y_prom_ponderado"]]
 resultado.to_excel("promedios_ponderados_por_municipio.xlsx", index=False) #Esta linea cambias el nombre del archivo. Se guardan en disco D DVCHANES documentos
 
 print("Cálculo terminado")
+
