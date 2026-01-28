@@ -26,7 +26,7 @@ Sigue estos pasos para reproducir los experimentos:
 ### 2. Entrenamiento y Predicción (`entrenamiento`)
 Una vez generados los arreglos (`.npy` o `.h5`):
 
-1.  Navega a esta carpeta y selecciona el script correspondiente dependiendo del tipo de recorte o arquitectura que desees probar (ej. `EfficientNetB3`, `VGG16`).
+1.  Navega a esta carpeta y selecciona el script correspondiente dependiendo del tipo de recorte que hayas generado.
 2.  Ejecuta el script de entrenamiento.
 3.  **Output:** Al finalizar, el modelo generará archivos **Excel (`.xlsx`)** con las predicciones crudas a nivel de AGEB/Patch.
 
